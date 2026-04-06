@@ -25,3 +25,4 @@ class DataLoader:
 
         #return a tensor of our features
         return self.flights
+    

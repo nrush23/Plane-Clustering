@@ -1,9 +1,15 @@
+import utils
+
 class Model:
+    data = None
     def __init__(self):
-        print("Initializing model")
+        utils.printHeader("Initializing model")
     
     def train(self):
-        print("Training mode")
+        utils.printHeader("Training mode")
     
     def inference(self):
-        print("Inference mode")
+        utils.printHeader("Inference mode")
+    
+    def loadData(self, data):
+        self.data = data

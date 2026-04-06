@@ -4,6 +4,7 @@ def main():
     model = Model()
     dataLoader = DataLoader()
     data = dataLoader.getData()
+    model.loadData(data=data)
     model.train()
 
     model.inference()
